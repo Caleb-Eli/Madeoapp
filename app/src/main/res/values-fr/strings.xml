@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name" translatable="false">Remindee</string>
+
+    <string name="login_login">Se connecter</string>
+    <string name="login_email">Email</string>
+    <string name="login_email_invalid">Email invalide</string>
+    <string name="login_password">Mot de passe</string>
+
+    <string name="setting_title">Menu principal</string>
+    <string name="setting_theme">Thèmes</string>
+    <string name="setting_theme_automatic">Automatique</string>
+    <string name="setting_theme_wallpaper" translatable="false">Fond d\'écran</string>
+    <string name="setting_theme_light">Lumière du jour</string>
+    <string name="setting_theme_twilight">Crépuscule</string>
+    <string name="setting_theme_night">Minuit</string>
+    <string name="setting_theme_sunrise">Lever du soleil</string>
+    <string name="setting_theme_aurora">Aurore</string>
+    <string name="setting_logout">Se déconnecter</string>
+    <string name="setting_logout_confirm">Se déconnecter ?</string>
+    <string name="setting_language">Langue</string>
+    <string name="setting_language_english" translatable="false">Anglais</string>
+    <string name="setting_language_indonesia" translatable="false">Bahasa Indonesia</string>
+    <string name="setting_language_french" translatable="false">Français</string>
+
+    <string name="todo_done">Terminé</string>
+    <string name="todo_today">Aujourd\'hui</string>
+    <string name="todo_scheduled">Planifié</string>
+    <string name="todo_all">Tous</string>
+    <string name="todo_rename">Renommer</string>
+    <string name="todo_skip">Passer</string>
+    <string name="todo_add">Ajouter</string>
+    <string name="todo_note">Note</string>
+    <string name="todo_add_note">Ajouter une note</string>
+    <string name="todo_new_list">Nouvelle liste</string>
+    <string name="todo_my_list">Mes listes</string>
+    <string name="todo_no_list">Aucune liste</string>
+    <string name="todo_no_task">Aucune tâche</string>
+    <string name="todo_cancel">Annuler</string>
+    <string name="todo_group_default_name">Groupe sans titre</string>
+    <string name="todo_group_menu">Menu du groupe</string>
+    <string name="todo_group_menu_add_remove_list">Ajouter/supprimer une liste</string>
+    <string name="todo_group_menu_rename">Renommer le groupe</string>
+    <string name="todo_group_menu_delete">Supprimer le groupe</string>
+    <string name="todo_group_menu_ungroup">Dissocier les listes</string>
+    <string name="todo_create_group">Créer un groupe</string>
+    <string name="todo_create_group_hint">Nommer ce groupe</string>
+    <string name="todo_create_group_positive">Créer le groupe</string>
+    <string name="todo_create_list_default_name">Liste sans titre</string>
+    <string name="todo_create_list">Nouvelle liste</string>
+    <string name="todo_create_list_hint">Entrer le titre de la liste</string>
+    <string name="todo_create_list_positive">Créer la liste</string>
+    <string name="todo_rename_list">Renommer la liste</string>
+    <string name="todo_rename_list_positive">Enregistrer</string>
+    <string name="todo_add_task">Ajouter une tâche</string>
+    <string name="todo_rename_task">Renommer la tâche</string>
+    <string name="todo_add_task_completed">Terminée</string>
+    <string name="todo_update_group_list">Ajouter une liste au groupe</string>
+    <string name="todo_step_rename">Renommer l\'étape</string>
+    <string name="todo_step_next">Étape suivante</string>
+    <string name="todo_add_due_date_task">Ajouter une échéance</string>
+    <string name="todo_add_due_date_time_task">Heure</string>
+    <string name="todo_add_due_date_repeat_task">Répéter</string>
+    <string name="todo_repeat_never">Jamais</string>
+    <string name="todo_repeat_daily">Quotidien</string>
+    <string name="todo_repeat_weekdays">Jours de semaine</string>
+    <string name="todo_repeat_weekly">Hebdomadaire</string>
+    <string name="todo_repeat_monthly">Mensuel</string>
+    <string name="todo_repeat_yearly">Annuel</string>
+
+    <string name="todo_task_item_info">%1$s sur %2$s</string>
+    <string name="todo_task_in_progress_date_creation_second">Créé il y a quelques instants</string>
+    <string name="todo_task_in_progress_date_creation_minute">Créé il y a %1$s minutes</string>
+    <string name="todo_task_in_progress_date_creation_hour">Créé il y a %1$s heures</string>
+    <string name="todo_task_in_progress_date_creation_yesterday">Créé hier</string>
+    <string name="todo_task_in_progress_date_creation_date">Créé le %1$s</string>
+    <string name="todo_task_complete_date_today">Terminé aujourd\'hui</string>
+    <string name="todo_task_complete_date_yesterday">Terminé hier</string>
+    <string name="todo_task_complete_date">Terminé le %1$s</string>
+    <string name="todo_task_note_update_second">Mis à jour il y a quelques instants</string>
+    <string name="todo_task_note_update_minute">Mis à jour il y a %1$s minutes</string>
+    <string name="todo_task_note_update_hour">Mis à jour il y a %1$s heures</string>
+    <string name="todo_task_note_update_yesterday">Mis à jour hier</string>
+    <string name="todo_task_note_update_date">Mis à jour le %1$s</string>
+
+    <string name="todo_task_today">Aujourd\'hui</string>
+    <string name="todo_task_tomorrow">Demain</string>
+    <string name="todo_task_yesterday">Hier</string>
+    <string name="todo_task_due_date_today">Échéance aujourd\'hui</string>
+    <string name="todo_task_due_date_tomorrow">Échéance demain</string>
+    <string name="todo_task_due_date_yesterday">Échéance hier</string>
+    <string name="todo_task_due_date">Échéance le %1$s</string>
+
+    <string name="todo_task_channel_name">Alarmes des tâches</string>
+    <string name="todo_task_channel_description">Notifications pour les rappels</string>
+    <string name="todo_task_notification_action_snooze">Dans 15 min</string>
+
+    <string name="todo_search">Rechercher une tâche</string>
+
+    <string name="todo_show_complete">Afficher les tâches terminées</string>
+    <string name="todo_hide_complete">Masquer les tâches terminées</string>
+
+    <string name="todo_select_time">Sélectionner l\'heure</string>
+</resources>
