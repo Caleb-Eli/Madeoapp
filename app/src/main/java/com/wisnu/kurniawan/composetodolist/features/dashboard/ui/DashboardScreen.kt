@@ -281,7 +281,7 @@ private fun DashboardContent(
             Row(
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                PgIconButton(onClick = onSettingClick, color = Color.Transparent) {
+                PgIconButton(onClick = onSettingClick, color = Color.Transparent, enabled = true) {
                     PgIcon(imageVector = Icons.Rounded.Menu)
                 }
 

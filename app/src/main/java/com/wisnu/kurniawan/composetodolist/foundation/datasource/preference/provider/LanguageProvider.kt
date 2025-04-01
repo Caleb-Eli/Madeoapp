@@ -22,7 +22,7 @@ class LanguageProvider @Inject constructor(
 
     fun getLanguage(): Flow<Language> {
         return languageDataStore.data.map { it.language.toLanguage() }
-            .catch { emit(Language.ENGLISH) }
+            .catch { emit(Language.FRENCH) }
             .flowOn(dispatcher)
     }
 
